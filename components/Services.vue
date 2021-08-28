@@ -12,7 +12,7 @@
         md="6"
       >
         <v-img
-          :src="require('@/assets/workhard.jpeg')"
+          :src="require('@/assets/circuit.jpg')"
           height="100%"
         />
       </v-col>
