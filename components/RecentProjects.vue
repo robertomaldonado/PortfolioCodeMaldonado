@@ -18,9 +18,10 @@
         </base-heading>
 
         <base-text class="mb-5">
-          Bacon ipsum dolor amet tail beef ribs salami meatloaf chicken chislic flank sausage hamburger. <br/>
-          Salami pork belly pork chop kielbasa ground round swine. <br/>
-          Biltong pig strip steak filet mignon, swine beef ribs t-bone.
+          These are projects I have worked on in my free time. <br/>
+          They include some projects done with VueJs, NuxtJs and ReactJs. <br/>
+          Link to my repo will display coding challenges I have been working on.<br/>
+          Check them out:
         </base-text>
 
         <v-card color="secondary">

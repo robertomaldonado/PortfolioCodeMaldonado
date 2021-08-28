@@ -44,11 +44,11 @@
             Chicken salami bacon landjaeger capicola, tenderloin chuck rump chislic short loin fatback beef ribs jowl picanha meatball.
             </base-text>
             <base-btn 
-            class="mt-4" 
-            color="primary"
-            nuxt
-            to="/otherPage">
-              See my work!
+              class="mt-4" 
+              color="primary"
+              @click="ToLinkedIn()"
+            >
+              Let's connect on LinkedIn!
             </base-btn>
           </v-col>
         </v-row>
@@ -60,3 +60,17 @@
     </v-row>
   </section>
 </template>
+
+<script>
+  export default { 
+    props: {},
+    data() {
+      return {}
+    },
+    methods: {
+      ToLinkedIn(){
+        window.open("https://www.linkedin.com/in/jrmaldo/", '_blank')
+      }
+    }
+  }
+</script>

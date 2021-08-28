@@ -1,13 +1,13 @@
 <template>
   <div>
     <v-btn
-      v-for="(item, i) in items.slice(0, large ? items.length : 3)"
+      v-for="(item, i) in items.slice(0, large ? items.length : 2)"
       :key="i"
       :value="item.name"
       fab
       class="ma-2"
       color="info"
-      :small="!large"
+      :small="true"
       @click="NavigateToSM(item.name)"
     >
       <v-icon
@@ -50,8 +50,8 @@
         else if(val=="LinkedIn"){
           window.open("https://www.linkedin.com/in/jrmaldo/", '_blank')
         }
-        else{
-          console.log(val)
+        else if(val=="Email"){
+          window.open("mailto:replace_me@hotmail.com?subject=Contact&body=Hello!");
         }
       }
     }

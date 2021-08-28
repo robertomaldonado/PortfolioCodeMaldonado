@@ -13,7 +13,7 @@
         contain
         height="50"
       >
-      Cutomized Portfolio Website
+      Portfolio Website
       </v-img>
     </v-slide-x-transition>
     <v-spacer />
@@ -32,7 +32,7 @@
     height="70"
     class="justify-center"
   >
-    <social-media/>
+    <social-media large/>
     <span>&copy; {{ new Date().getFullYear() }}</span>
   </v-footer>
   </v-app>

@@ -82,22 +82,22 @@
       services: [
         {
           name: 'Research',
-          icon: 'mdi-clipboard-text-outline',
+          icon: 'mdi-library',
           blurb: 'Keep up to date with technology',
         },
         {
           name: 'Leadership',
           icon: 'mdi-pencil-outline',
-          blurb: 'Applied techbology to solve problems',
+          blurb: 'Applying technology to solve problems',
         },
         {
           name: 'Development',
-          icon: 'mdi-settings-outline',
+          icon: 'mdi-cogs',
           blurb: 'Practice skills to keep them sharp',
         },
         {
-          name: 'Support',
-          icon: 'mdi-account',
+          name: 'Team Oriented',
+          icon: 'mdi-human-queue',
           blurb: 'Always better to work in groups,<br/>More brain power bigger goals',
         },
       ],
