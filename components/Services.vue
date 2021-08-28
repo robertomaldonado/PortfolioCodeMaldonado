@@ -4,7 +4,7 @@
     class="overflow-hidden"
   >
     <v-row
-      class="accent"
+      class="primary"
       no-gutters
     >
       <v-col
@@ -49,7 +49,7 @@
           >
             <v-avatar
               class="elevation-6 mb-2"
-              color="#69A1BB"
+              color="#99AAFF"
               size="100"
               tile
             >

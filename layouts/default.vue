@@ -6,16 +6,16 @@
       fixed
       flat
     >
-    <v-slide-x-transition>
-      <v-img
+    <!-- <v-slide-x-transition> -->
+      <!-- <v-img
         v-if="showLogo"
         class="shrink"
         contain
         height="50"
       >
       Portfolio Website
-      </v-img>
-    </v-slide-x-transition>
+      </v-img> -->
+    <!-- </v-slide-x-transition> -->
     <v-spacer />
     <social-media />
 
@@ -32,7 +32,9 @@
     height="70"
     class="justify-center"
   >
+  <v-spacer/>
     <social-media large/>
+    <v-spacer/>
     <span>&copy; {{ new Date().getFullYear() }}</span>
   </v-footer>
   </v-app>
