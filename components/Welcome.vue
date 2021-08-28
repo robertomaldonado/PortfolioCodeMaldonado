@@ -9,7 +9,7 @@
         md="6"
       >
         <v-img
-          :src="require('@/assets/welcome.png')"
+          :src="require('@/assets/person.jpeg')"
           height="100vh"
         />
       </v-col>
@@ -34,7 +34,9 @@
           >
             <base-heading>Roberto Maldonado</base-heading>
             <base-text>
-            Capicola sirloin pork loin, turducken shank cupim rump jerky picanha turkey meatloaf. 
+            Software Engineer <br/>
+            MSc. Computer Science <br/> <br/>
+
             Tail frankfurter filet mignon meatloaf. 
             Ribeye bresaola porchetta, flank shankle doner sirloin corned beef kielbasa cow strip steak. 
             Kevin ribeye chislic shoulder t-bone ham beef ribs pork chop sausage pancetta sirloin pig. 

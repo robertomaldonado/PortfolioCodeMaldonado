@@ -3,11 +3,12 @@
     <v-btn
       v-for="(item, i) in items.slice(0, large ? items.length : 3)"
       :key="i"
+      :value="item.name"
       fab
       class="ma-2"
       color="info"
       :small="!large"
-      @click="NavigateToSM()"
+      @click="NavigateToSM(item.name)"
     >
       <v-icon
         dark
@@ -28,7 +29,7 @@
     data: () => ({
       items: [
         {
-          name: 'Linked-In',
+          name: 'LinkedIn',
           icon: 'mdi-linkedin',
         },
         {
@@ -36,22 +37,22 @@
           icon: 'mdi-github',
         },
         {
-          name: 'Facebook',
-          icon: 'mdi-facebook',
-        },
-        {
           name: 'Email',
           icon: 'mdi-email',
-        },
-        {
-          name: 'Phone',
-          icon: 'mdi-phone',
         },
       ],
     }),
     methods:{
-      NavigateToSM(){
-        console.log("Ok")
+      NavigateToSM(val){
+        if(val=="Github"){
+          window.open("https://github.com/robertomaldonado", '_blank')
+        }
+        else if(val=="LinkedIn"){
+          window.open("https://www.linkedin.com/in/jrmaldo/", '_blank')
+        }
+        else{
+          console.log(val)
+        }
       }
     }
   }

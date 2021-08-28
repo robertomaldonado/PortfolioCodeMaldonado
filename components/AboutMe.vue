@@ -16,17 +16,16 @@
         <base-heading class="info--text">
           About Me
         </base-heading>
-        <base-text class="mb-5">
-          Lorem ipsum dolor sit amet, consectetur adipi<br>
-          scin elit. Etiam vulputate augue vel felis gravida<br>
-          porta. Lorem ipsum dolor sit amet.
+        <base-text class="mb-3">
+          Passionate for technology<br>
+          Always eager to learn new things<br>
+          Be productive with available resources
         </base-text>
         <base-subheading class="info--text">
           Skills
         </base-subheading>
         <base-text class="mb-5">
-          Lorem ipsum dolor sit amet, consecte tur adipi scin e<br>
-          lit. Etiam vulputate augu e vel felis gravida porta.
+          Skills which I consider important in the tech industry<br>
         </base-text>
         <v-alert
           outlined
@@ -42,13 +41,11 @@
               cols="6"
               v-text="skill.name"
             />
-
             <v-col
               class="text-right"
               cols="6"
               v-text="`${skill.value}%`"
             />
-
             <v-progress-linear
               :value="skill.value"
               color="info"
@@ -63,7 +60,7 @@
         md="6"
       >
         <v-img
-          :src="require('@/assets/aboutme.png')"
+          :src="require('@/assets/rock-pile.jpeg')"
           height="100%"
         />
       </v-col>
@@ -76,12 +73,32 @@
     data: () => ({
       skills: [
         {
-          name: 'Web Design',
+          name: 'Python, Javascript(ES6)',
           value: 100,
         },
         {
           name: 'Web Development',
           value: 75,
+        },
+        {
+          name: 'Web Support',
+          value: 90,
+        },
+        {
+          name: 'Web Support',
+          value: 90,
+        },
+        {
+          name: 'Web Support',
+          value: 90,
+        },
+        {
+          name: 'Web Support',
+          value: 90,
+        },
+        {
+          name: 'Web Support',
+          value: 90,
         },
         {
           name: 'Web Support',

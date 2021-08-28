@@ -12,7 +12,7 @@
         md="6"
       >
         <v-img
-          :src="require('@/assets/services.png')"
+          :src="require('@/assets/workhard.jpeg')"
           height="100%"
         />
       </v-col>
@@ -32,12 +32,12 @@
               style="transform: translateX(55%)"
             />
             <base-heading class="info--text">
-              Services
+              Values
             </base-heading>
 
-            <base-text class="mb-5">
-              Curabitur venenatis tortor erat, quis laoreet nis<br>
-              lobortis eget. Fusce tempor aucto.
+            <base-text>
+              Life long quick learner. <br/>
+              Adding value to people's life through technology.<br/>
             </base-text>
           </v-col>
 
@@ -50,12 +50,12 @@
             <v-avatar
               class="elevation-6 mb-2"
               color="#69A1BB"
-              size="64"
+              size="100"
               tile
             >
               <v-icon
                 dark
-                size="52"
+                size="70"
                 v-text="service.icon"
               />
             </v-avatar>
@@ -83,22 +83,22 @@
         {
           name: 'Research',
           icon: 'mdi-clipboard-text-outline',
-          blurb: 'Curabitur et nisi semper,<br> pellent e sque ',
+          blurb: 'Keep up to date with technology',
         },
         {
-          name: 'Design',
+          name: 'Leadership',
           icon: 'mdi-pencil-outline',
-          blurb: 'Curabitur et nisi semper, <br>pellent.',
+          blurb: 'Applied techbology to solve problems',
         },
         {
           name: 'Development',
           icon: 'mdi-settings-outline',
-          blurb: 'Curabitur et nisi semper, <br>pellent.',
+          blurb: 'Practice skills to keep them sharp',
         },
         {
           name: 'Support',
           icon: 'mdi-account',
-          blurb: 'Curabitur et nisi semper, <br>pellent.',
+          blurb: 'Always better to work in groups,<br/>More brain power bigger goals',
         },
       ],
     }),

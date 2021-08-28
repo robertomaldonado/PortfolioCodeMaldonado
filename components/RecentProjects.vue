@@ -49,7 +49,7 @@
         md="6"
       >
         <v-img
-          :src="require('@/assets/recentprojects.png')"
+          :src="require('@/assets/laptop.jpeg')"
           height="100%"
         />
       </v-col>
@@ -63,10 +63,10 @@
 
     data: () => ({
       projects: [
-        'project1',
-        'project2',
-        'project3',
-        'project4',
+        'glasses',
+        'cactus',
+        'stacks',
+        'code_js',
       ],
     }),
   }
