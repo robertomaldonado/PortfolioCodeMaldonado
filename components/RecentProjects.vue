@@ -29,13 +29,15 @@
             <v-row>
               <v-col
                 v-for="project in projects"
-                :key="project"
+                :key="project.id"
+                :value="project.url"
                 cols="12"
                 md="6"
+                @click="GoToProject(project.url)"
               >
-                <a href="#">
+                <a>
                   <v-img
-                    :src="require(`@/assets/${project}.jpeg`)"
+                    :src="require(`@/assets/${project.img}.jpeg`)"
                     max-height="300"
                   />
                 </a>
@@ -64,11 +66,37 @@
 
     data: () => ({
       projects: [
-        'glasses',
-        'cactus',
-        'stacks',
-        'code_js',
+        {
+          id:1,
+          img: 'glasses',
+          url: 'https://github.com/robertomaldonado/LeetHubCode/',
+          description: ''
+        },
+        {
+          id:2,
+          img: 'cactus',
+          url: 'https://natgarden-ec.web.app/',
+          description: 'Other Nuxt'
+        },
+        {
+          id:3,
+          img: 'stacks',
+          url: 'https://maldonado-3ed76.web.app/',
+          description: 'ReactJs'
+        },
+        {
+          id:4,
+          img: 'code_js',
+          url: 'https://skylake.web.app/',
+          description: 'A simple blog to keep my reading list and completed books'
+        }
       ],
     }),
+    methods:{
+      GoToProject(url){
+        console.log(url)
+        window.open(url, '_blank')
+      }
+    }
   }
 </script>

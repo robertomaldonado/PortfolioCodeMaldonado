@@ -76,7 +76,7 @@
 
 <script>
   export default {
-    name: 'Services',
+    name: 'Values',
 
     data: () => ({
       services: [
