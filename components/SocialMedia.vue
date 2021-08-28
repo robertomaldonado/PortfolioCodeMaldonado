@@ -51,7 +51,7 @@
           window.open("https://www.linkedin.com/in/jrmaldo/", '_blank')
         }
         else if(val=="Email"){
-          window.open("mailto:replace_me@hotmail.com?subject=Contact&body=Hello!");
+          window.open("mailto:?subject=Contact&body=Hello!");
         }
       }
     }
