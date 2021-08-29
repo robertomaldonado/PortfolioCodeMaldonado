@@ -12,32 +12,72 @@
         cols="12"
         md="6"
       >
-        <!-- <base-bubble-1 style="transform: translate(5%, -5%)" /> -->
+        <base-bubble-1 style="transform: translate(5%, -5%)" />
         <base-heading class="info--text">
           About Me
         </base-heading>
-        <base-text class="mb-3">
+        <base-text class="mb-5">
           Passionate for technology<br>
           Always eager to learn new things<br>
           Be productive with available resources
         </base-text>
         <base-subheading class="info--text">
-          Skills
+          Education
         </base-subheading>
         <base-text class="mb-5">
-          Skills which I consider important in the tech industry<br>
+          My short trip on education: <br>
         </base-text>
         <v-alert
           outlined
           color="info"
+          class="mb-12"
         >
           <v-row
-            v-for="(skill, i) in skills"
+            v-for="(ed, i) in education"
             :key="i"
             style="color: #69A1BB;"
           >
             <v-col
-              class="text-uppercase"
+              cols="8"
+            >
+              <b>{{ed.institution}}</b>
+            </v-col>
+            <v-col
+              class="text-right"
+              cols="4"
+            >
+              {{ed.year}}
+            </v-col>
+            <v-col
+              cols="8"
+              class="ml-12"
+            >
+              {{ed.degree_level}}
+            </v-col>
+            <v-progress-linear
+              value=100
+              color="info"
+              height="8"
+            />
+          </v-row>
+        </v-alert>
+        <base-subheading class="info--text">
+          Technical skills
+        </base-subheading>
+        <base-text class="mb-5">
+          Skills I have developed (but not limited to): <br>
+        </base-text>
+        <v-alert
+          outlined
+          color="info"
+          class="mb-10"
+        >
+          <v-row
+            v-for="(skill, i) in skills"
+            :key="i"
+            style="color: #69A1BB"
+          >
+            <v-col
               cols="6"
               v-text="skill.name"
             />
@@ -54,7 +94,6 @@
           </v-row>
         </v-alert>
       </v-col>
-
       <v-col
         class="hidden-sm-and-down"
         md="6"
@@ -73,37 +112,27 @@
     data: () => ({
       skills: [
         {
-          name: 'Python, Javascript(ES6)',
+          name: 'Python, Flask, Javascript (NuxtJs, VueJs, Vuetify), NoSQL, Google Cloud Platform, git',
           value: 100,
         },
         {
-          name: 'Web Development',
-          value: 75,
+          name: 'C/C++, C#, R, Typescript, React, Angular, pandas, numpy, ffmpeg, devOps, CI/CD, gnuplot, bigQuery, mongoDB, nodeJs, express, npm, yarn, terraform, docker, kubernetes, Twilio, REST APIs',
+          value: 80,
+        }
+      ],
+      education: [
+        {
+          id: 1,
+          institution: 'Florida State University',
+          degree_level: 'M.Sc. Computer Science',
+          year: "Tallahasse, FL | 2019"
         },
         {
-          name: 'Web Support',
-          value: 90,
-        },
-        {
-          name: 'Web Support',
-          value: 90,
-        },
-        {
-          name: 'Web Support',
-          value: 90,
-        },
-        {
-          name: 'Web Support',
-          value: 90,
-        },
-        {
-          name: 'Web Support',
-          value: 90,
-        },
-        {
-          name: 'Web Support',
-          value: 90,
-        },
+          id: 2,
+          institution: 'Universidad San Francisco de Quito',
+          degree_level: 'B.S. Computer Science',
+          year: "Quito, Ecuador | 2015"
+        }
       ],
     }),
   }
