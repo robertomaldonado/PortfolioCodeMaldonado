@@ -4,7 +4,7 @@
     class="overflow-hidden"
   >
     <v-row
-      class="primary"
+      class="primary white--text"
       no-gutters
     >
       <v-col
@@ -16,7 +16,6 @@
           height="100%"
         />
       </v-col>
-
       <v-col
         class="text-center pa-5"
         cols="12"
@@ -32,15 +31,13 @@
               style="transform: translateX(55%)"
             />
             <base-heading class="info--text">
-              Values
+              <b>Values</b>
             </base-heading>
-
             <base-text>
-              Life long quick learner. <br/>
-              Adding value to people's life through technology.<br/>
+              Quick learner <br/>
+              Adding value to people's life through technology<br/>
             </base-text>
           </v-col>
-
           <v-col
             v-for="(service, i) in services"
             :key="i"
@@ -59,12 +56,13 @@
                 v-text="service.icon"
               />
             </v-avatar>
-
             <base-text>
+              <b>
               <div
                 class="mb-2"
                 v-text="service.name"
               />
+              </b>
               <div v-html="service.blurb" />
             </base-text>
           </v-col>
@@ -83,22 +81,22 @@
         {
           name: 'Research',
           icon: 'mdi-library',
-          blurb: 'Keep up to date with technology',
+          blurb: 'To keep up to date with technology<br/>Proof by scientify methodology',
         },
         {
           name: 'Leadership',
           icon: 'mdi-pencil-outline',
-          blurb: 'Applying technology to solve problems',
+          blurb: "It's about impact, influence and inspiration <br/>Applying technology to solve problems",
         },
         {
           name: 'Development',
           icon: 'mdi-cogs',
-          blurb: 'Practice skills to keep them sharp',
+          blurb: 'Practicing skills to keep them sharp <br/>Physical health and mental health awareness',
         },
         {
           name: 'Team Oriented',
           icon: 'mdi-human-queue',
-          blurb: 'Always better to work in groups,<br/>More brain power bigger goals',
+          blurb: 'Always better to work in groups <br/>More brain power bigger goals',
         },
       ],
     }),
