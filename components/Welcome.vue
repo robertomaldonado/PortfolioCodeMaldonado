@@ -37,11 +37,12 @@
             Software Engineer <br/>
             MSc. Computer Science <br/> <br/>
 
-            Tail frankfurter filet mignon meatloaf. 
-            Ribeye bresaola porchetta, flank shankle doner sirloin corned beef kielbasa cow strip steak. 
-            Kevin ribeye chislic shoulder t-bone ham beef ribs pork chop sausage pancetta sirloin pig. 
-            Picanha hamburger chislic tenderloin. <br/> 
-            Chicken salami bacon landjaeger capicola, tenderloin chuck rump chislic short loin fatback beef ribs jowl picanha meatball.
+            Welcome to my portfolio! <br/>
+            I'm interested in technology and in the process of software engineering.<br/>
+            Always exited for logic challenges, riddles and jigsaw puzzles. <br/><br/>
+            This site was created using NuxtJs (VueJs), Vuetify and is hosted in firebase 
+            with enabled autodeployment and publishing feature once the build is successful through github actions. <br/>
+            Do you want to lern more about this project or myself? Follow my linkedIn.
             </base-text>
             <base-btn 
               class="mt-4" 
