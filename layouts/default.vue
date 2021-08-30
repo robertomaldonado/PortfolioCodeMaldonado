@@ -32,10 +32,10 @@
     height="70"
     class="justify-center"
   >
-  <v-spacer/>
+  <!-- <v-spacer/> -->
     <social-media large/>
-    <v-spacer/>
-    <span>&copy; {{ new Date().getFullYear() }}</span>
+    <!-- <v-spacer/> -->
+    <!-- <span>&copy; {{ new Date().getFullYear() }}</span> -->
   </v-footer>
   </v-app>
 </template>
