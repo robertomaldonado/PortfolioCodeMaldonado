@@ -39,10 +39,10 @@
 
             Welcome to my portfolio! <br/>
             I'm interested in technology and in the process of software engineering.<br/>
-            Always exited for logic challenges, riddles and jigsaw puzzles. <br/><br/>
+            I'm always excited for logic challenges, riddles and puzzles. <br/><br/>
             This site was created using NuxtJs (VueJs), Vuetify and is hosted in firebase 
             with enabled autodeployment and publishing feature once the build is successful through github actions. <br/>
-            Do you want to lern more about this project or myself? Follow my linkedIn.
+            Do you want to learn more about this project or myself? Follow my linkedIn.
             </base-text>
             <base-btn 
               class="mt-4" 
