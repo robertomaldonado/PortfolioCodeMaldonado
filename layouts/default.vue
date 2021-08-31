@@ -69,3 +69,12 @@ export default {
   },
 }
 </script>
+
+<style>
+.gradient-bottom{
+  background-image: linear-gradient(to bottom, #cacaca, white);
+}
+.gradient-top{
+  background-image: linear-gradient(to top, #E2EBF1, white);
+}
+</style>
