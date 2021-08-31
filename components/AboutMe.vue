@@ -29,13 +29,13 @@
         </base-text>
         <v-alert
           outlined
-          color="info"
+          color="black"
           class="mb-12"
         >
           <v-row
             v-for="(ed, i) in education"
             :key="i"
-            style="color: #69A1BB;"
+            style="color: black;"
           >
             <v-col
               cols="8"
@@ -48,16 +48,27 @@
             >
               {{ed.year}}
             </v-col>
+            <v-row>
             <v-col
               cols="8"
-              class="ml-12"
+              class="ml-4"
             >
               {{ed.degree_level}}
             </v-col>
+            <v-col 
+              cols="12"
+              class="text-right mt-n15"
+            >
+              <v-img
+                class="image-container mr-4"
+                :src="require(`@/assets/${ed.ilogo}`)"
+              />
+            </v-col>
+            </v-row>
             <v-progress-linear
               value=100
-              color="info"
-              height="8"
+              color="black"
+              height="4"
             />
           </v-row>
         </v-alert>
@@ -125,15 +136,25 @@
           id: 1,
           institution: 'Florida State University',
           degree_level: 'M.Sc. Computer Science',
-          year: "Tallahasse, FL | 2019"
+          year: "Tallahasse, FL | 2019",
+          ilogo: "fsulogo.png"
         },
         {
           id: 2,
           institution: 'Universidad San Francisco de Quito',
           degree_level: 'B.S. Computer Science',
-          year: "Quito, Ecuador | 2015"
+          year: "Quito, Ecuador | 2015",
+          ilogo: "usfqlogo.jpeg"
         }
       ],
     }),
   }
 </script>
+
+<style>
+.image-container { 
+  width:75px;
+  height:75px;
+  float: right;
+}
+</style>

@@ -20,7 +20,8 @@
   }
 </script>
 
-<style lang="sass">
-  .v-heading
+<style>
+  .v-heading{
     letter-spacing: 3px !important
+  }
 </style>
