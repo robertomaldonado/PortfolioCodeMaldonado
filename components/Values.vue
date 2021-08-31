@@ -34,7 +34,6 @@
               <b>Values</b>
             </base-heading>
             <base-text>
-              Quick learner <br/>
               Adding value to people's life through technology<br/>
             </base-text>
           </v-col>
@@ -81,22 +80,22 @@
         {
           name: 'Research',
           icon: 'mdi-library',
-          blurb: 'To keep up to date with technology<br/>Proof by scientify methodology',
+          blurb: 'To keep up to date with technology',
         },
         {
           name: 'Leadership',
           icon: 'mdi-pencil-outline',
-          blurb: "It's about impact, influence and inspiration <br/>Applying technology to solve problems",
+          blurb: "It's about impact, influence and inspiration",
         },
         {
           name: 'Development',
           icon: 'mdi-cogs',
-          blurb: 'Practicing skills to keep them sharp <br/>Physical health and mental health awareness',
+          blurb: 'Practice skills to keep them sharp',
         },
         {
           name: 'Team Oriented',
           icon: 'mdi-human-queue',
-          blurb: 'Always better to work in groups <br/>More brain power bigger goals',
+          blurb: 'More brain power achieves bigger goals',
         },
       ],
     }),

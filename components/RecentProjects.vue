@@ -19,9 +19,7 @@
 
         <base-text class="mb-5">
           These are projects I have worked on in my free time. <br/>
-          They include some projects done with VueJs, NuxtJs and ReactJs. <br/>
-          Link to my repo will display coding challenges I have been working on.<br/>
-          Check them out:
+          They include some projects done with Js frameworks: VueJs, NuxtJs and ReactJs.<br/>
         </base-text>
 
         <v-card color="secondary">
@@ -38,8 +36,16 @@
                 <a>
                   <v-img
                     :src="require(`@/assets/${project.img}.jpeg`)"
-                    max-height="300"
+                    height="200"
                   />
+                  <v-card class="gradient-bottom">
+                    <v-card-title align="center">
+                      {{project.name}}
+                    </v-card-title>
+                    <v-card-text>
+                      {{project.description}}
+                    </v-card-text>
+                  </v-card>
                 </a>
               </v-col>
             </v-row>
@@ -70,25 +76,29 @@
           id:1,
           img: 'glasses',
           url: 'https://github.com/robertomaldonado/LeetHubCode/',
-          description: ''
+          name: 'LeetCode Challenges',
+          description: 'This a link to my GitHub coding solutions for LeetCode'
         },
         {
           id:2,
           img: 'cactus',
           url: 'https://natgarden-ec.web.app/',
-          description: 'Other Nuxt'
+          name: 'Natgarden',
+          description: 'This is an informative website that uses NuxtJS'
         },
         {
           id:3,
           img: 'stacks',
+          name: 'ReactJs Resume',
           url: 'https://maldonado-3ed76.web.app/',
-          description: 'ReactJs'
+          description: 'This a resume version created with ReactJs'
         },
         {
           id:4,
           img: 'code_js',
+          name: 'Simple Blog',
           url: 'https://skylake.web.app/',
-          description: 'A simple blog to keep my reading list and completed books'
+          description: 'A simple blog to present my read books and a short review'
         }
       ],
     }),

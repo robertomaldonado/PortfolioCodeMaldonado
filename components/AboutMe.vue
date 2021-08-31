@@ -25,7 +25,7 @@
           Education
         </base-subheading>
         <base-text class="mb-5">
-          My short trip on education: <br>
+          About my education: <br>
         </base-text>
         <v-alert
           outlined
@@ -86,15 +86,15 @@
           <v-row
             v-for="(skill, i) in skills"
             :key="i"
-            style="color: #69A1BB"
+            style="color: black"
           >
             <v-col
-              cols="6"
+              cols="10"
               v-text="skill.name"
             />
             <v-col
               class="text-right"
-              cols="6"
+              cols="2"
               v-text="`${skill.value}%`"
             />
             <v-progress-linear
@@ -127,8 +127,8 @@
           value: 100,
         },
         {
-          name: 'C/C++, C#, R, Typescript, React, Angular, pandas, numpy, ffmpeg, devOps, CI/CD, gnuplot, bigQuery, mongoDB, nodeJs, express, npm, yarn, terraform, docker, kubernetes, Twilio, REST APIs',
-          value: 80,
+          name: 'C/C++, C#, R, Typescript, React, Angular, pandas, numpy, ffmpeg, devOps, CI/CD, gnuplot, bigQuery, mongoDB, nodeJs, express, npm, yarn, terraform, docker, kubernetes, Twilio, REST APIs, PostMan',
+          value: 88,
         }
       ],
       education: [
