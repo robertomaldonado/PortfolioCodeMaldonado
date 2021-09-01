@@ -95,7 +95,7 @@
         {
           name: 'Team Oriented',
           icon: 'mdi-human-queue',
-          blurb: 'More brain power achieves bigger goals',
+          blurb: 'More brain power achives bigger goals',
         },
       ],
     }),

@@ -5,7 +5,7 @@
   >
     <v-row no-gutters>
       <v-col
-        class="accent text-center pa-5 white--text"
+        class="gradient-bottom text-center pa-5 white--text"
         cols="12"
         md="6"
       >
@@ -96,7 +96,7 @@
         {
           id:4,
           img: 'code_js',
-          name: 'Simple Blog',
+          name: 'My Reading Books Blog',
           url: 'https://skylake.web.app/',
           description: 'A simple blog to present my read books and a short review'
         }

@@ -20,7 +20,7 @@
     <social-media />
 
     </v-app-bar>
-    <v-main>
+    <v-main class="gradient-bg">
       <v-container>
         <Nuxt/>
       </v-container>
@@ -32,10 +32,7 @@
     height="70"
     class="justify-center"
   >
-  <!-- <v-spacer/> -->
     <social-media large/>
-    <!-- <v-spacer/> -->
-    <!-- <span>&copy; {{ new Date().getFullYear() }}</span> -->
   </v-footer>
   </v-app>
 </template>
@@ -76,5 +73,8 @@ export default {
 }
 .gradient-top{
   background-image: linear-gradient(to top, #E2EBF1, white);
+}
+.gradient-bg{
+  background-image: linear-gradient(to top, #f5f5f5, white);
 }
 </style>

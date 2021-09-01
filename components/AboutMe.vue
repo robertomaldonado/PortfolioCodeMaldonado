@@ -4,7 +4,7 @@
     class="overflow-hidden"
   >
     <v-row
-      class="white"
+      class="gradient-bg"
       no-gutters
     >
       <v-col

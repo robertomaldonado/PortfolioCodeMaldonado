@@ -1,6 +1,6 @@
 <template>
   <v-row justify="center" align="center">
-    <welcome/>
+    <welcome class="gradient-bg"/>
     <recent-projects/>
     <values/>
     <about-me/>
